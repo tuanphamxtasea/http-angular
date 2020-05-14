@@ -1,0 +1,9 @@
+<h2>Get Request HTTP </h2>
+<div ><button type="button" (click)="makeRequest()" class="ui button" >Make Request</button></div>
+<div *ngIf="loading">loading...</div>
+<pre>{{data|json}}</pre>
+
+<h2>Post Request HTTP </h2>
+<div ><button type="button" (click)="makePost()" class="ui button" >Make Post</button></div>
+<div *ngIf="loading">loading...</div>
+<pre>{{data1|json}}</pre>
